@@ -1,0 +1,18 @@
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 50px;
+    background-color: blanchedalmond;
+
+}
+
+.border {
+    border: 5px double black
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
